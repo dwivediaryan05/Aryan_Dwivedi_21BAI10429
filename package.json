@@ -1,0 +1,17 @@
+{
+  "name": "hitwicket",
+  "version": "1.0.0",
+  "description": "This project is a chess-like game featuring custom characters with distinct movement and attack abilities. Players can select their characters and compete in a turn-based game with real-time multiplayer functionality using WebSockets.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Aryan Dwivedi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "ws": "^8.18.0"
+  }
+}
